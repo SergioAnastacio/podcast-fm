@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="contenedor header-grid">
+        <div class="logo">
+          <img
+            src="./img/logo.svg"
+            height="200"
+            width="200"
+            alt="logo podcast app"
+          />
+        </div>
+        <div class="contenido-header">
+          <h1>Tu plataforma para publicar tus podcast</h1>
+          <a class="btn-primario" href="#">Crear cuenta</a>
+        </div>
+      </div>
+    </header>
+    <section class="contenedor seccion">
+      <div class="crea-grid">
+        <div class="imagen">
+          <img src="./img/imagen_podcast.svg" alt="crea tu podcast" />
+        </div>
+        <div class="contenido">
+          <h2>Crea tu podcast</h2>
+          <p>
+            Nosotros lo distribuimos a las plataformas mas populares como
+            Youtbe, spotify , apple podcast , googlePodcast
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="beneficios seccion">
+      <div class="grid-beneficios contenedor">
+        <div class="contenido-beneficios">
+          <h2>Llega al miles y gana dinero</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+            necessitatibus sint voluptate ipsum, vel esse nostrum, deserunt
+            ullam ex pariatur repudiandae tempora dolorum dicta rem inventore
+            reprehenderit quas suscipit facilis!
+          </p>
+        </div>
+        <div class="imagen">
+          <picture>
+            <source srcset="./img/podcast_cover.avif" type="image/avif" />
+            <source srcset="./img/podcast_cover.webp" type="image/webp" />
+            <source srcset="./img/podcast_cover.png" type="image/png" />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="./img/podcast_cover.jpg"
+              lazyalt="imagen"
+              width="500"
+              height="300"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="estadisticas seccion contenedor">
+      <h2>Estadisticas detalladas</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iste
+        incidunt fuga blanditiis voluptatibus odit eum beatae quidem tenetur
+        porro vel, repudiandae minima inventore deleniti. Labore in culpa nihil
+        placeat.
+      </p>
+      <img src="./img/grafica.svg" alt="Graficas" />
+    </section>
+
+    <section class="planes seccion">
+      <div class="contenedor">
+        <h2>Planes</h2>
+        <p class="descripcion">
+          Inicia gratis , crese tu plan cuando sea necesario
+        </p>
+        <div class="nuestros-planes">
+          <div class="plan inicio">
+            <h3>inicio</h3>
+            <p class="precio">$2.99 mes</p>
+            <ul class="listado">
+              <li>30episodios</li>
+              <li>Estadisticas</li>
+              <li>App para grabar</li>
+            </ul>
+            <a href="#" class="btn-plan">Inscribirme</a>
+          </div>
+          <!--End plan inicio-->
+          <div class="plan negocio">
+            <h3>Negocio</h3>
+            <p class="precio">$6.99 mes</p>
+            <ul class="listado">
+              <li>episodios ilimitados</li>
+              <li>Todas las plataformas</li>
+              <li>Estadisticas</li>
+              <li>App para grabar</li>
+              <li>podcast pagados</li>
+            </ul>
+            <a href="#" class="btn-plan">Inscribirme</a>
+          </div>
+          <!--End plan negocio-->
+          <div class="plan pro">
+            <h3>Pro</h3>
+            <p class="precio">$4.99 mes</p>
+            <ul class="listado">
+              <li>50 episodios</li>
+              <li>Todas las plataformas</li>
+              <li>Estadisticas</li>
+              <li>App para grabar</li>
+            </ul>
+            <a href="#" class="btn-plan">Inscribirme</a>
+          </div>
+          <!--End plan pro-->
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="contenedor footer-grid">
+        <div class="footer-widget"><img src="./img/logo.svg" alt="logo" /></div>
+        <!--end widget-->
+        <div class="footer-widget">
+          <h3>soluciones</h3>
+          <nav>
+            <a href="#">Soluciones</a>
+            <a href="#">Graficas</a>
+            <a href="#">Distribucion</a>
+          </nav>
+        </div>
+        <!--end widget-->
+        <div class="footer-widget">
+          <h3>Soporte</h3>
+          <nav>
+            <a href="#">Documentacion</a>
+            <a href="#">Precios</a>
+            <a href="#">Api</a>
+          </nav>
+        </div>
+        <!--end widget-->
+        <div class="footer-widget">
+          <h3>Podcastfm</h3>
+          <nav>
+            <a href="#">Nosotros</a>
+            <a href="#">Blog</a>
+            <a href="#">Clientes</a>
+          </nav>
+        </div>
+        <!--end widget-->
+        <p class="copyright">PodcastFm- todos los derechos reservados &copy;</p>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="./js/modernizer.js"></script>
+    <script src="./js/reload..js"></script>
+  </body>
+</html>
